@@ -1,0 +1,27 @@
+{
+  "name": "my-next-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H localhost -p 3333",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "resetDB" : "node db/main.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "next": "13.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.7",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "eslint": "8.22.0",
+    "eslint-config-next": "13.0.0",
+    "typescript": "4.8.4"
+  }
+}
